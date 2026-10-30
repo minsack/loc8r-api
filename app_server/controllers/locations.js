@@ -6,7 +6,7 @@ const apiOptions = {
 };
 
 if (process.env.NODE_ENV === 'production') {
-    apiOptions.server = `https://${process.env.RENDER_EXTERNAL_HOSTNAME}`;
+    apiOptions.server = process.env.RENDER_EXTERNAL_URL;
 }
 
 const formatDistance = (distance) => {
