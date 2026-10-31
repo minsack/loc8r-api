@@ -163,7 +163,7 @@ const locationsDeleteOne = async (req, res) => {
             });
     }
     try {
-        const location = await Loc.findByIdAndRemove(locationid).exec();
+        const location = await Loc.findByIdAndDelete(locationid).exec();
         if (!location) {
             return res
                 .status(404)

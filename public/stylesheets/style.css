@@ -1,20 +1,11 @@
 @import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Lobster', cursive;
 }
 
 legend {
   font-family: 'Lobster', cursive;
-}
-
-p {
-  color: #fff;
 }
 
 .navbar {
@@ -24,7 +15,7 @@ p {
 
 .navbar-light .navbar-brand {
   font-family: 'Lobster', cursive;
-  color: #fff;
+  color: #000000;
 }
 
 .navbar-light .navbar-toggler {
@@ -36,10 +27,8 @@ p {
   background-image: url("data:image/svgxml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
 }
 
-.navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-  color: white;
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(0, 0, 0);
 }
 
 .card {
@@ -53,7 +42,7 @@ p {
 }
 
 .card-text {
-  color: #fff;
+  color: white;
 }
 
 .banner {
@@ -76,14 +65,12 @@ p {
   margin-bottom: 0.5em;
 }
 
-.badge-default,
-.btn-primary {
+.badge-default, .btn-primary {
   background-color: #ad1d28;
   border-color: #911821;
 }
 
-h4 a,
-h4 a:hover {
+h4 a, h4 a:hover {
   color: #fff;
 }
 
@@ -98,14 +85,13 @@ h1 small {
 }
 
 .address {
-  color: #fff;
+  color: white;
   margin-bottom: 0.5rem;
 }
 
 .facilities span.badge {
   margin-right: 2px;
-  color: #fff;
-  background-color: #fd8c14;
+  background-color: rgba(253, 126, 20);
 }
 
 p {
@@ -117,7 +103,7 @@ a {
 }
 
 a:hover {
-  color: #fff
+  color:#fff
 }
 
 body {
@@ -126,12 +112,7 @@ body {
   background-color: #108a93;
 }
 
-.badge-pill {
-  padding-right: 0.6em;
-  padding-left: 0.6em;
-  border-radius: 0.45rem;
-}
-
-.float-right {
-  float: right !important;
+.fa-star {
+  font-size: small;
+  color: #aaa;
 }
